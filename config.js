@@ -7,27 +7,27 @@ global.autoReadAll = false
 global.antitags = true
 
 
-global.Owner = ['918101187835']
-global.OwnerNumber = ['918101187835']
+global.Owner = ['918882029689']
+global.OwnerNumber = ['918882029689']
 global.ownertag = ['918101187835']
 global.BotName = "Miku"
 global.packname = "Miku bot"
-global.author = "By: Fantox"
-global.OwnerName = "Fantox"
-global.BotSourceCode = "https://github.com/FantoX001/Miku-MD"
-global.SupportGroupLink = "https://chat.whatsapp.com/JcBzjRIxM5UHfuJbt0KrWt"
+global.author = "By: Apurb"
+global.OwnerName = "Apurb"
+global.BotSourceCode = ""
+global.SupportGroupLink = ""
 global.sessionName = "session"
 
 
 
-global.prefa = ['-'] // Prefix ---  change it to anythong you want except @//
+global.prefa = ['!'] // Prefix ---  change it to anythong you want except @//
 
 
-global.location = "West Bengal, India"
+global.location = "New Delhi, India"
 global.reactmoji = "❤️"
 global.themeemoji = "💖"
 global.vidmenu = { url: 'https://c.tenor.com/YGuLegQWubwAAAPo/miku-nakano-gotoubun-no-hanayome.mp4' }
-global.websitex = "https://github.com/FantoX001"
+global.websitex = ""
 global.lolhuman = "KaysaS"
 
 
