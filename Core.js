@@ -1509,16 +1509,18 @@ replay('This Group has been *unbanned* from using me!')
   }
   break
 
-case 'support': case 'supportgc':
+// case 'support': case 'supportgc':
     
-    reply(`*My developer's group:* http://gg.gg/MikuSupport`)
-    break
+//     reply(`*My developer's group:* http://gg.gg/MikuSupport`)
+//     break
 
 case 'repo': case 'botrepo':
     
-    reply(`*My Source Code:* https://github.com/Apurb001/Miku-MD`)
+    reply(`*My Source Code:* Apurb ne mana kia`)
     break
-
+case 'sagar' :
+	reply(`*Sagar chutiya 🤣🤣🤣*`)
+	break
 case 'nsfwmenu':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
