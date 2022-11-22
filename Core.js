@@ -4700,12 +4700,13 @@ quickReplyButton: {
 displayText: '✨Menu✨',
 id: '-menu'
 }  
-}, {
+}/*, {
 quickReplyButton: {
-displayText: 'Bot Owner',
+displayText: 'Bot Owner',//owner no
 id: '-owner'
 }
-}]
+}*/
+]
 let txt = `「 *${global.OwnerName}'s Broadcast* 」\n\n${text}`
 Miku.send5ButImg(yoi, txt, `${global.BotName}`, BotLogo, btn, Thumb)
 }
