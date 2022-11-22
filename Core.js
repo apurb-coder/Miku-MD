@@ -1413,7 +1413,7 @@ switch(command) {
     case 'sc': case 'script': case 'sourcecode': {
         if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
-    teks = `*${global.BotName}'s Script*\n\n*GitHub*: ${global.BotSourceCode}\n\nDont forget to follow me on *GitHub* and give a ⭐️ to my projects. `
+    teks = `*${global.BotName}'s Script*\n\n*GitHub*: ${global.BotSourceCode}\n\nThis script is Private. `
     let buttons = [
     {buttonId: `${prefix}menu`, buttonText: {displayText: '✨Bot Menu✨'}, type: 1}
     ]
@@ -1516,11 +1516,9 @@ replay('This Group has been *unbanned* from using me!')
 
 case 'repo': case 'botrepo':
     
-    reply(`*My Source Code:* Apurb ne mana kia`)
+    reply(`*My Source Code:* https://github.com/Apurb001/Miku-MD`)
     break
-case 'sagar' :
-	reply(`*Sagar chutiya 🤣🤣🤣*`)
-	break
+
 case 'nsfwmenu':
     if (isBan) return reply(mess.banned)	 			
     if (isBanChat) return reply(mess.bangc)
