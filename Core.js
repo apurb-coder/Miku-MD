@@ -1379,7 +1379,9 @@ return list[Math.floor(list.length * Math.random())]
     if (smallinput.includes('hello')) {
       reply (`Hello *${pushname}*, I am *${BotName}*. How can i help you?`);
     } 
-
+    if (smallinput.includes('sagar') || smallinput.includes('Sagar')) {
+        reply (`*Sagar hamare group ka gandu* 🤣🤣🤣`);
+      } 
     if( smallinput.includes('konichiwa') || smallinput.includes('konochiwa') || smallinput.includes('konichiba') || smallinput.includes('salute')){
       reply (`Konichiwa *${pushname}*, I am *${BotName}*. How can i help you?`);
     }
@@ -1516,8 +1518,10 @@ replay('This Group has been *unbanned* from using me!')
 
 case 'repo': case 'botrepo':
     
-    reply(`*My Source Code:* https://github.com/Apurb001/Miku-MD`)
+    reply(`*Source Code nahi milega Apurb ne mana kia hai*`)
     break
+
+
 
 case 'nsfwmenu':
     if (isBan) return reply(mess.banned)	 			
