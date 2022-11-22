@@ -1379,8 +1379,8 @@ return list[Math.floor(list.length * Math.random())]
     if (smallinput.includes('hello')) {
       reply (`Hello *${pushname}*, I am *${BotName}*. How can i help you?`);
     } 
-    if (smallinput.includes('sagar') || smallinput.includes('Sagar')) {
-        reply (`*Sagar hamare group ka gandu* 🤣🤣🤣`);
+    if (smallinput.includes('sagar') || smallinput.includes('Sagar') || smallinput.includes('@❟❛❟Sagar✇Uchiha❟❛❟')) {
+        reply (`*Sagar(~❟❛❟Sagar✇Uchiha❟❛❟) hamare group ka gandu* 🤣🤣🤣`);
       } 
     if( smallinput.includes('konichiwa') || smallinput.includes('konochiwa') || smallinput.includes('konichiba') || smallinput.includes('salute')){
       reply (`Konichiwa *${pushname}*, I am *${BotName}*. How can i help you?`);
