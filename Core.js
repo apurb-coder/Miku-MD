@@ -1394,6 +1394,34 @@ return list[Math.floor(list.length * Math.random())]
         reply (`*XD*`)
     }
 
+    if (smallinput=='abe') {
+        reply (`*chup gandu*`)
+    }
+
+    if (smallinput=='bata na' || smallinput=='batana'|| smallinput=='bol') {
+        reply (`*soja bhai bohot baat kar li*`)
+    }
+
+    if (smallinput=='🗿') {
+        reply (`*a gya sigma male ka chomda!!!*`)
+    }
+
+    if (smallinput=='randi') {
+        reply (`*gali maat de betichod!!!*`)
+    }
+
+    if (smallinput=='🤣🤣🤣') {
+        reply (`*thoda kam has le vai*`)
+    }
+
+    if (smallinput=='soja') {
+        reply (`*tu bhi soja*`)
+    }
+
+    if (smallinput=='exam') {
+        reply (`*whatsapp me kya kar raha lodu padhai kar le*`)
+    }
+
     if (smallinput=='op') {
         reply (`Hehe`)
     }
@@ -3641,6 +3669,8 @@ case 'awesomecheck':
                     case 'lovelycheck':
                       case 'uglycheck':
                         case 'chadcheck':
+                            case 'randicheck':
+                                case 'dankcheck':
                         if (isBan) return reply(mess.banned)
                         if (isBanChat) return reply(mess.bangc)
 				if (!text) return replay(`Tag Someone, Example : ${prefix + command} @<username>`)
@@ -4784,7 +4814,7 @@ stickermeme, quotes, darkjoke
 
  *━━━〈  🎐 Fun 🎐  〉━━━*
 
-reaction, truth, dare, couple, soulmate, handsomecheck, beautifulcheck, chadcheck,awesomecheck, greatcheck, gaycheck, cutecheck, lesbiancheck, hornycheck, prettycheck, lovelycheck, uglycheck, charactercheck
+reaction, truth, dare, couple, soulmate, handsomecheck, beautifulcheck, chadcheck,awesomecheck, greatcheck, gaycheck, cutecheck, lesbiancheck, hornycheck,randicheck, dankcheck, prettycheck, lovelycheck, uglycheck, charactercheck
 
  *━━━〈  🪁 Essentials 🪁  〉━━━*
 
