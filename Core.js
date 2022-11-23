@@ -1402,9 +1402,7 @@ return list[Math.floor(list.length * Math.random())]
         reply (`*soja bhai bohot baat kar li*`)
     }
 
-    if (smallinput=='🗿') {
-        reply (`*a gya sigma male ka chomda!!!*`)
-    }
+    
 
     if (smallinput=='randi') {
         reply (`*gali maat de betichod!!!*`)
