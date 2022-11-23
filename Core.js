@@ -1418,6 +1418,12 @@ return list[Math.floor(list.length * Math.random())]
         reply (`*tu bhi soja*`)
     }
 
+    if (smallinput=='☕') {
+        reply (`*woman ☕*`)
+    }
+
+    
+
     if (smallinput=='exam') {
         reply (`*whatsapp me kya kar raha lodu padhai kar le*`)
     }
